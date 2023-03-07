@@ -19,7 +19,7 @@ public class MoviesApplication {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/api/v1/**")
-						.allowedOrigins("http://localhost:3000")
+						.allowedOrigins("https://sweet-gelato-9ecca5.netlify.app")
 						.allowedMethods("*")
 						.allowedHeaders("*");
 			}
